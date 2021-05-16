@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ditwebso/public_html/ditws_git/
+    - /bin/cp * $DEPLOYPATH
