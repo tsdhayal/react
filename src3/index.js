@@ -1,36 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import reportWebVitals from './reportWebVitals';
+import "./index.scss";
 import { BrowserRouter } from "react-router-dom";
-
-import './index.css';
-import App from './App';
-import Paths from "./static/Paths";
-import Routers from "./static/Routers";
-
-//import Nav from './static/Nav';
-import Defaults from './static/Default';
-
-import Footer from './static/Footer';
+import Header from "./dashboard/Header";
+import ComponentBoot from './dashboard/ComponentBoot';
+import Boots1 from "./dashboard/Boots1";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Indexes />
+    <Boots1 />
     
-    <Defaults />
-    
-    <BrowserRouter>
-    	<Paths />
-    	<Routers />
-    </BrowserRouter>
-
-     
-
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-ReactDOM.render( <Footer /> , document.getElementById('footer') );
 
 function Indexes(){
 	return(
@@ -44,4 +28,4 @@ function Indexes(){
 //ReactDOM.render( <LoginForm />, document.getElementById('static') );
  //<Nav /> 
 
-reportWebVitals();
+

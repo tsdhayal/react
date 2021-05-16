@@ -1,0 +1,9 @@
+.footer{
+	width: 100%;
+	padding:10px 20px;
+	background:black;
+	color:wheat;
+	/*height: 100vh;*/
+	/*text-align: center;*/
+	box-sizing: border-box;
+}

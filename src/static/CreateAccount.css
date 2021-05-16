@@ -1,0 +1,20 @@
+.CreateAccont{
+	width: 100%;
+	background-color: #EBF5FB;
+	padding:20px;
+	height: 100vh;
+}
+.CreateAccont form {
+	background-color: ;
+}
+
+.CreateAccont .linksacc{
+	text-decoration: none;
+	color:darkblue;
+	padding:7px 10px;
+	border-radius: 4px;
+}
+.CreateAccont .linksacc:hover{
+	background-color: #EBF5FB ;
+	background-color: lightgray ;
+}
